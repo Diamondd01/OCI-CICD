@@ -37,7 +37,9 @@ jobs:
       run: |
         cd server
         git pull origin main
+        echc "pulled latest"
         node server.js
+        echo "Started node.js server"
     - name: Deploy Static
       run:
         cd public
