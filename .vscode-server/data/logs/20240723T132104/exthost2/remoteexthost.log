@@ -1,0 +1,13 @@
+2024-07-23 13:21:35.351 [info] Extension host with pid 10003 started
+2024-07-23 13:21:35.357 [info] Lock '/home/opc/.vscode-server/data/User/workspaceStorage/3809f83b1a367bc67518f53867fe7ec4/vscode.lock': Lock acquired.
+2024-07-23 13:21:35.527 [info] Eager extensions activated
+2024-07-23 13:21:38.261 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-07-23 13:21:38.263 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: '*', root cause: vscode.git
+2024-07-23 13:21:38.263 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-07-23 13:21:38.383 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: '*'
+2024-07-23 13:21:38.383 [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+2024-07-23 13:21:54.674 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2024-07-23 13:28:09.521 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2024-07-23 13:28:09.521 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-07-23 13:28:26.628 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2024-07-23 13:28:51.123 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'

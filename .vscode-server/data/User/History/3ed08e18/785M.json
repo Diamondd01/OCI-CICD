@@ -1,0 +1,39 @@
+{
+    "workbench.colorTheme": "Default Dark Modern",
+    "liveServer.settings.CustomBrowser": "chrome",
+    "liveServer.settings.donotVerifyTags": true,
+    "workbench.editorAssociations": {
+        "*.sqlite": "default"
+    },
+    "sqlite3-editor.ui.tableSelector.displayColumns": true,
+    "remote.SSH.connectTimeout": 1450000,
+    "remote.SSH.useLocalServer": false,
+    "remote.SSH.localServerDownload": "off",
+    "workbench.startupEditor": "none",
+    "files.associations": {
+        "config": "ssh_config"
+    },
+    "json.schemas": [
+        {
+            "name": "instance-project-oci2",
+            "host": "150.136.71.117",
+            "protocol": "sftp",
+            "port": 22,
+            "username": "opc",
+            "remotePath": "/",
+            "privateKeyPath": "/Users/dijewell/Desktop/ssh-keys/ssh-key-2024-04-28.key"
+        }
+        
+    ],
+    "remote.SSH.remotePlatform": {
+        "instance-project-oci2": "linux",
+        "150.136.48.149": "linux",
+        "129.80.128.25": "linux",
+        "150.136.71.117": "linux",
+        "150.136.65.180": "linux",
+        "150.136.119.109": "linux"
+    },
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "[ssh_config]": {}
+    
+}
