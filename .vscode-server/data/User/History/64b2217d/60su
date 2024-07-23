@@ -1,0 +1,5 @@
+.ssh/
+.npm/
+.bash_logout/
+.bash_profile/
+.bashrc/
