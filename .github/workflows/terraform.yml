@@ -43,9 +43,9 @@ jobs:
         echo "Started node.js server"
     - name: Deploy Static
       run:
-        cd public
+        cd Public
         git pull origin main
-        cp -R * Public/index.html
+        cp -R * /home/opc/Public/index.html
         
     - name: Deploy Application to OCI linux Instance
       run: |
