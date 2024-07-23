@@ -38,7 +38,7 @@ jobs:
         cd Server
         git pull origin main
         echo "pulled latest"
-        node server.js
+        sudo node server.js
         echo "Started node.js server"
     - name: Deploy Static
       run:
