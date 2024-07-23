@@ -34,7 +34,7 @@ jobs:
       run: terraform apply -auto-approve -input=false
       
     - name: Deploy App
-      run:
+      run: |
         cd server
         git pull origin main
         node server.js
