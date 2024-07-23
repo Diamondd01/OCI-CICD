@@ -12,5 +12,4 @@ app.get('/',(req,res)=>{
     res.send("Hey!")
 });
 app.listen(port,()=> {
-
 })
