@@ -45,7 +45,7 @@ jobs:
       run:
         cd Public
         git pull origin main
-        cp -R * Public/index.html
+        cp -R * /var/www/html
         
     - name: Deploy Application to OCI linux Instance
       run: |
