@@ -56,7 +56,7 @@ jobs:
         
     - name: Deploy Application to OCI linux Instance
       run: |
-        ssh -o StrictHostKeyChecking=no -i $SSH_PRIVATE_KEY opc@150.136.119.109
+        ssh -o StrictHostKeyChecking=no -i ${{ secrets.SSH_PRIVATE_KEY }} opc@150.136.119.109
 
     - name: Notify deployment status
       run: echo "Deployment complete"
