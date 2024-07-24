@@ -49,7 +49,7 @@ jobs:
        cd Public
        git pull origin main
        echo "pulled latest"
-       cp /Public/index.html /var/www/html/index.html
+       cp Public/index.html /var/www/html/index.html
         
         
     - name: Deploy Application to OCI linux Instance
