@@ -46,10 +46,11 @@ jobs:
       
     - name: Deploy Static
       run: |
-       cd Public
-       git pull origin main
-       echo "pulled latest"
-       cp -r Public/index.html /var/www/html/index.html
+        cd
+        cd Public
+         git pull origin main
+         echo "pulled latest"
+         cp -r Public/index.html /var/www/html/index.html
         
         
     - name: Deploy Application to OCI linux Instance
