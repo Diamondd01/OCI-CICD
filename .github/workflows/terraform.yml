@@ -41,12 +41,15 @@ jobs:
         sudo node server.js &
         sleep 5
         echo "Started node.js server"
+    - name: Debugging
+      run: ls -la ./Public 
+      
     - name: Deploy Static
       run: |
        cd Public
-        git pull origin main
-        echo "pulled latest"
-        cp -R Public/index.html
+       git pull origin main
+       echo "pulled latest"
+       cp -R 
         
         
     - name: Deploy Application to OCI linux Instance
