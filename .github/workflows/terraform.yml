@@ -43,7 +43,10 @@ jobs:
         echo "Started node.js server"
     - name: Deploy Static
       run: |
-       scp -r -i ${{secrets.SSH_PRIVATE_KEY}} opc@150.136.119.109:/home/opc/Public/. /var/www/html
+       cd Public
+        git pull origin main
+        echo "pulled latest"
+        cp -R Public/.
         
         
     - name: Deploy Application to OCI linux Instance
