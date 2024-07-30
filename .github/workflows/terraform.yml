@@ -38,8 +38,7 @@ jobs:
         cd Server
         git pull origin main
         echo "pulled latest"
-        sudo node server.js &
-        sleep 5
+        sudo node server.js 
         echo "Started node.js server"
     - name: Debugging
       run: ls -la ./Public 
