@@ -18,3 +18,12 @@
 2024-07-23 21:26:41.317 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
 2024-07-23 21:26:41.317 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
 2024-07-23 21:26:41.317 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2024-07-24 00:52:22.617 [error] [RPC Response] PtyService#updateIcon Could not find pty on pty host
+2024-07-24 00:52:22.617 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2024-07-24 00:52:23.898 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2024-07-24 00:52:24.971 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2024-07-24 01:10:16.182 [error] [RPC Response] PtyService#updateIcon Could not find pty on pty host
+2024-07-24 01:10:16.182 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2024-07-24 02:21:15.786 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2024-07-24 02:21:15.787 [error] [RPC Response] PtyService#updateIcon Could not find pty on pty host
+2024-07-24 02:21:15.787 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host

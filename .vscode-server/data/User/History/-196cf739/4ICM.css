@@ -1,0 +1,23 @@
+body {
+    font-family:Arial, sans-serif;
+    text-align: center;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/009/205/514/large_2x/meteorological-department-cloudy-sky-stormy-weather-background-and-wallpaper-free-photo.jpeg');
+}
+
+h1{
+    margin-bottom:20px;
+}
+form{
+    margin:15% 0 15% 0%;
+}
+#weatherInfo{
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding:10px;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+label{
+    font-family: 'Times New Roman', Times, serif;
+}

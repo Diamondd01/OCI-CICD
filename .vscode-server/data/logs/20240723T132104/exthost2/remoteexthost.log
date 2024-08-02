@@ -11,3 +11,6 @@
 2024-07-23 13:28:09.521 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
 2024-07-23 13:28:26.628 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
 2024-07-23 13:28:51.123 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+2024-07-24 05:38:59.589 [info] Extension host terminating: renderer disconnected for too long (1)
+2024-07-24 05:38:59.590 [info] Lock '/home/opc/.vscode-server/data/User/workspaceStorage/3809f83b1a367bc67518f53867fe7ec4/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-07-24 05:38:59.621 [info] Extension host with pid 10003 exiting with code 0
