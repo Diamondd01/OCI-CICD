@@ -1,0 +1,14 @@
+{
+    "name": "oci-cicd",
+    "version": "1.0.0",
+    "scripts": {
+        "test": "jest"
+    },
+    "devDependencies": {
+        "jest": "^29.7.0",
+        "supertest": "^6.3.4"
+    },
+    "dependencies": {
+        "express": "^4.19.2"
+    }
+}
