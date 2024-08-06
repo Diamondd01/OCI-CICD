@@ -5,21 +5,55 @@
 * the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
 * the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
 *
-Server bound to /tmp/code-6b25873d-1d9d-40fa-a5ce-91e4cabb93b7
-Extension host agent listening on /tmp/code-6b25873d-1d9d-40fa-a5ce-91e4cabb93b7
+Server bound to /tmp/code-decd9ef6-906a-486d-a69f-16c71f7686a8
+Extension host agent listening on /tmp/code-decd9ef6-906a-486d-a69f-16c71f7686a8
 
-[15:09:38] 
-
-
+[21:40:29] 
 
 
-[15:09:38] Extension host agent started.
-[15:09:38] [<unknown>][61b6f01d][ExtensionHostConnection] New connection established.
-[15:09:38] [<unknown>][f521ac6d][ManagementConnection] New connection established.
-[15:09:38] [<unknown>][61b6f01d][ExtensionHostConnection] <514478> Launched Extension Host Process.
-[15:09:52] [<unknown>][be956fb3][ManagementConnection] New connection established.
-[15:09:52] [<unknown>][a8d6c65e][ExtensionHostConnection] New connection established.
-[15:09:52] [<unknown>][a8d6c65e][ExtensionHostConnection] <514654> Launched Extension Host Process.
+
+
+[21:40:29] Extension host agent started.
+[21:40:29] [<unknown>][7dd07432][ManagementConnection] Unknown reconnection token (never seen).
+[21:42:47] [<unknown>][9f777dfa][ManagementConnection] New connection established.
+[21:42:47] [<unknown>][dfdbb7fc][ExtensionHostConnection] New connection established.
+[21:42:47] [<unknown>][dfdbb7fc][ExtensionHostConnection] <746945> Launched Extension Host Process.
+[21:43:11] [<unknown>][1bf878b4][ExtensionHostConnection] New connection established.
+[21:43:11] [<unknown>][8b1407d8][ManagementConnection] New connection established.
+[21:43:11] [<unknown>][1bf878b4][ExtensionHostConnection] <747120> Launched Extension Host Process.
+[21:43:38] [<unknown>][76a3e7f4][ManagementConnection] New connection established.
+[21:43:38] [<unknown>][91d68ff3][ExtensionHostConnection] New connection established.
+[21:43:38] [<unknown>][91d68ff3][ExtensionHostConnection] <747288> Launched Extension Host Process.
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
+stack trace: CodeExpectedError: Could not find pty on pty host
+    at A.U (/home/opc/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:56:30817)
+    at A.updateTitle (/home/opc/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:56:26017)
+    at D.<computed> (/home/opc/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:56:21292)
+    at Object.call (/home/opc/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:37:5367)
+    at c.s (/home/opc/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:35:5506)
+    at c.q (/home/opc/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:35:4947)
+    at b.value (/home/opc/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:35:4247)
+    at n.B (/home/opc/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:30:741)
+    at n.fire (/home/opc/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:30:958)
+    at process.$e (/home/opc/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:25:11142)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:951:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[21:43:41] Error [CodeExpectedError]: Could not find pty on pty host
+    at A.U (/home/opc/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:56:30817)
+    at A.updateTitle (/home/opc/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:56:26017)
+    at D.<computed> (/home/opc/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:56:21292)
+    at Object.call (/home/opc/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:37:5367)
+    at c.s (/home/opc/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:35:5506)
+    at c.q (/home/opc/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:35:4947)
+    at b.value (/home/opc/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:35:4247)
+    at n.B (/home/opc/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:30:741)
+    at n.fire (/home/opc/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:30:958)
+    at process.$e (/home/opc/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:25:11142)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:951:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[21:43:51] [<unknown>][8b1407d8][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[21:44:02] [<unknown>][9f777dfa][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
 New EH opened, aborting shutdown
-[15:14:38] New EH opened, aborting shutdown
-[16:12:18] [<unknown>][f521ac6d][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[21:45:29] New EH opened, aborting shutdown
