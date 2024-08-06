@@ -6,9 +6,17 @@
     },
     "devDependencies": {
         "jest": "^29.7.0",
+        "jsdom": "^24.1.1",
         "supertest": "^6.3.4"
     },
     "dependencies": {
         "express": "^4.19.2"
-    }
+    },
+    "main": "index.js",
+    "directories": {
+        "test": "test"
+    },
+    "author": "",
+    "license": "ISC",
+    "description": ""
 }
