@@ -1,0 +1,18 @@
+2024-08-06 15:07:17.448 [info] 
+
+
+
+
+2024-08-06 15:07:17.459 [info] Extension host agent started.
+2024-08-06 15:07:17.622 [info] [<unknown>][ab141204][ManagementConnection] New connection established.
+2024-08-06 15:07:17.623 [info] [<unknown>][971d8591][ExtensionHostConnection] New connection established.
+2024-08-06 15:07:17.722 [info] [<unknown>][971d8591][ExtensionHostConnection] <725143> Launched Extension Host Process.
+2024-08-06 15:12:17.459 [info] New EH opened, aborting shutdown
+2024-08-06 15:46:38.473 [info] [<unknown>][ab141204][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-08-06 15:46:38.475 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/opc/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/server/node/server.main.js:192:6383)
+    at process.emit (node:events:518:28)
+2024-08-06 18:46:19.743 [info] [<unknown>][971d8591][ExtensionHostConnection] <725143> Extension Host Process exited with code: 0, signal: null.
+2024-08-06 18:46:19.744 [info] Last EH closed, waiting before shutting down
+2024-08-06 18:46:44.094 [info] [<unknown>][ab141204][ManagementConnection] The reconnection grace time of 3h has expired, so the connection will be disposed.
+2024-08-06 18:51:19.744 [info] Last EH closed, shutting down
