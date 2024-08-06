@@ -71,3 +71,45 @@ sudo npm install --save dev jest supertest
 git merge
 git commit -m "updated test files"
 git config --global --edit
+nvm install node
+curl -fssl https://rpm.nodesource.com/setup_18.x 
+curl -fssl https://rpm.nodesource.com/setup_18.x | sudo bash -
+dnf install nsolid -y
+npm -v
+sudo npm -v
+npm config get prefix
+sudo npm config get prefix
+sudo dnf install nsolid -y
+sudo npm test
+npm i
+sudo npm i
+git add .
+git commit -m "configuring test"
+git push
+git pull
+sudo npm i
+git merge
+git merge main
+git merge origin main
+sudo npm i
+sudo npx npm-merge-driver install -g
+sudo npm i
+sudo npx npm-merge-driver install -g
+sudo npm i
+sudo npm test
+sudo npm install
+sudo npm test
+npm install
+sudo npm install
+sudo npm fund
+sudo npm test
+sudo -E npm test
+node -v
+sudo npm cache clean -f
+npm install -g n
+sudo npm install -g n
+sudo n stable
+sudo apt update
+sudo curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" 
