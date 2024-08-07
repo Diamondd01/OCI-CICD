@@ -1,20 +1,30 @@
 name: 'Jest'
-on: push
+
+on: 
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
 jobs:
   test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
       - name: Setup Node.js
         uses: actions/setup-node@v3
+        with:
+          node-version: '14'
 
-      # Install required deps for action
-      - name: Install Dependencies
-        run: 
+      - name: Pull latest code
+        run: |
           git pull origin main
-          echo "pulled latest"
-          npm install
+          echo "Pulled latest code from main"
 
-      # Finally, run our tests
+      - name: Install Dependencies
+        run: npm install
+
       - name: Run the tests
         run: npm test
+
