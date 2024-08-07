@@ -1,23 +1,26 @@
 const request = require('supertest');
 const app = require('../Public/script'); 
+const fetchWeatherByCity= require('../Public/script')
 
-global.fetch = jest.fn(()=>
+
+global.fetchWeatherByCity = jest.fn(()=>
     Promise.resolve({
         json:()=> Promise.resolve([{cityName: "Miami"}, {cityName:'Atlanta'}])
     })
 );
 
 
-describe('fetchData function', async()=>{
+describe('fetchData function',()=>{
     test("fetches city names from API", async()=>{
-        const data = await fetchData();
-        expect(data[0].Cityname).toBe('Miami')
+        const data = await fetchWeatherByCity('Miami');
+        expect(data).toBeTruthy();
+        expect(data.name).toBe('Miami')
     })
     test("handles Network Errors",async()=>{
-        global.fetch.mockImplementationOne(()=>
+        global.fetch = jest.fn(()=>
         Promise.reject(new Error('Network Error'))
     );
-    const data = await fetchData();
+    const data = await fetchWeatherByCity();
     expect(data).toBeNull();
     });
 });
