@@ -875,3 +875,4 @@
 2024-08-07 01:17:10.114 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
 2024-08-07 01:34:14.426 [error] Error: read ECONNRESET
 	at TLSWrap.onStreamRead (node:internal/stream_base_commons:217:20)
+2024-08-07 03:13:03.419 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1423
