@@ -1,4 +1,4 @@
-name: Jest
+name: 'Jest'
 on: push
 jobs:
   test:
@@ -10,7 +10,10 @@ jobs:
 
       # Install required deps for action
       - name: Install Dependencies
-        run: npm install
+        run: 
+          git pull origin main
+          echo "pulled latest"
+          npm install
 
       # Finally, run our tests
       - name: Run the tests
