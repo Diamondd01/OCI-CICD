@@ -876,3 +876,5 @@
 2024-08-07 01:34:14.426 [error] Error: read ECONNRESET
 	at TLSWrap.onStreamRead (node:internal/stream_base_commons:217:20)
 2024-08-07 03:13:03.419 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1423
+2024-08-07 03:13:08.696 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1652
+2024-08-07 03:13:13.792 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1652
