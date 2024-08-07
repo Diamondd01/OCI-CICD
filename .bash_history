@@ -117,3 +117,101 @@ source ~/.bashrc
 npm start
 cd Server
 node server.js
+sudo npm jest
+sudo nvm -v
+sudo dnf install nodejs
+sudo dnf module enable nodejs:20
+sudo uninstall nodejs
+sudo yum uninstall nodejs
+sudo yum remove nodejs
+sudo dnf module enable nodejs:20
+sudo yum remove jest
+sudo yum remove express
+sudo yum remove npm
+sudo npm list
+sudo dnf module enable nodejs:20
+sudo # installs fnm (Fast Node Manager)curl -fsSL https://fnm.vercel.app/install | bash# activate fnmsource ~/.bashrc# download and install Node.jsfnm use --install-if-missing 20# verifies the right Node.js version is in the environmentnode -v # should print `v20.16.0`# verifies the right npm version is in the environmentnpm -v # should print `10.8.1`
+curl -fsSL https://fnm.vercel.app/install | bash
+source ~/.bashrc
+fnm use --install-if-missing 20
+node -v
+npm -v
+npm install jest
+npm install express
+npm install supertest
+npm test
+sudo npm test
+git add .
+git commit -m "updated dependencies"
+git push
+npm  test
+npm jest
+npm init
+npm  test
+cd /home/opc/.nvm/fast/unit\test/mocks/package_dirs/nested/-both
+cd.nvm/fast/unit\test/mocks/package_dirs/nested/-both
+cd .nvm/fast/unit\test/mocks/package_dirs/nested/-both
+cd .nvm/fast/unit test/mocks/package_dirs/nested-both
+cd /.nvm/test/fast/Unit tests/mocks/project_dirs/nested-both
+cd .nvm
+cd test
+ls
+cd fast
+cd unit_test
+ls
+cd Unit tests
+cd 'Unit tests"
+cd 'Unit tests'
+ls
+cd mocks
+cd package_dirs
+ls
+cd project_dirs
+ls
+cd nested-both
+ls
+npm init
+cd
+npm cache clean --force
+npm cache clean
+npm test
+npm i
+npm test
+sudo npm test
+sudo curl -fsSL https://fnm.vercel.app/install | bash
+source /home/opc/.bashrc
+sudo fnm use --install-if-missing 20
+fnm use --install-if-missing 20
+sudo npm test
+sudo node -v
+sudo npm -v
+sudo node -v
+node -v
+npm test
+npm install --save-dev jsdom
+npm remove jsdom
+npm test
+npm install --save-dev jsdom
+npm test
+[A
+npm test
+git add .
+git commit -m "createdt jest enviornment"
+git push
+npm test
+npm jest --clearCache
+npm test
+npm install jest-fetch-mock --save-dev
+npm test
+npm uninstall jest-fetch-mock
+
+npm test
+npm install node-fetch@2
+npm test
+git add .
+git commit -m "finished creating test"
+git push
+git add .
+git commit -m "Fixed:jest file path for automated testing"
+git push
+git pull
