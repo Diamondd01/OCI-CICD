@@ -1,0 +1,5 @@
+.ssh/
+.ssh/authorized_keys
+.npm/
+.ssh
+/jest.setup.js
