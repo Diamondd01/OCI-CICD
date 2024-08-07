@@ -1,20 +1,21 @@
-name: Run Test
+name: Test Application
 
 on:
   push:
-    branches:
-      - main
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
 jobs:
-  build:
+  test:
+    name: Run test
     runs-on: unbuntu-latest
 
     steps:
-    - name: Checkout code
-      uses: actions/setup-node@v3
-      with:
-        node-version: '14'
-    - name: Install dependencies
-      run: npm install
+      - name: Checkout code
+        uses: actions/setup-node@v4
+        
+      - name: setup node.js
+        run: npm install
 
-    - name: Run tests
-      run: npm test
+      - name: Run tests
+        run: npm test
